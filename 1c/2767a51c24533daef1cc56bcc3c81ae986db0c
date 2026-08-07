@@ -1,0 +1,22 @@
+composer.json
+  s_fca61c04dceb47::t_9adf9e9aee9859 16-19,22-23
+.github/workflows/tests.yml
+  s_fca61c04dceb47::t_a07edc0af63686 30
+  s_fca61c04dceb47::t_2b5594ed6cb7a3 16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "1c2767a51c24533daef1cc56bcc3c81ae986db0c",
+  "prompts": {},
+  "sessions": {
+    "s_fca61c04dceb47": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "917b2e88-0fde-47fd-8d43-8f7c4af70a18",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Bogdan Kharchenko <scriptor@gmail.com>"
+    }
+  }
+}

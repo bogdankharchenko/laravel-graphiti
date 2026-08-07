@@ -1,0 +1,56 @@
+{
+    "name": "bogdankharchenko/laravel-graphiti",
+    "description": "Laravel client for the Graphiti knowledge-graph REST service",
+    "keywords": ["laravel", "graphiti", "knowledge-graph", "neo4j", "zep"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bogdan Kharchenko",
+            "email": "scriptor@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.8",
+        "illuminate/contracts": "^11.0|^12.0|^13.0",
+        "illuminate/http": "^11.0|^12.0|^13.0",
+        "illuminate/support": "^11.0|^12.0|^13.0",
+        "nesbot/carbon": "^2.72|^3.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0|^11.0",
+        "pestphp/pest": "^2.35|^3.0|^4.0|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BogdanKharchenko\\Graphiti\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BogdanKharchenko\\Graphiti\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BogdanKharchenko\\Graphiti\\GraphitiServiceProvider"
+            ],
+            "aliases": {
+                "Graphiti": "BogdanKharchenko\\Graphiti\\Facades\\Graphiti"
+            }
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

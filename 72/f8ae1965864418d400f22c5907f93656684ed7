@@ -1,0 +1,57 @@
+.gitignore
+  s_fca61c04dceb47::t_bcc3a3b0f54fb4 1-5
+src/Data/RoleType.php
+  s_fca61c04dceb47::t_606ffe1e032f6b 1-10
+src/Exceptions/GraphitiRequestException.php
+  s_fca61c04dceb47::t_3e1131b16b8ab9 1-40
+src/GraphitiServiceProvider.php
+  s_fca61c04dceb47::t_4ea127e52b92f0 1-36
+.github/workflows/tests.yml
+  s_fca61c04dceb47::t_3a9f711084e602 1-54
+LICENSE.md
+  s_fca61c04dceb47::t_22fbfd713cca97 1-21
+README.md
+  s_fca61c04dceb47::t_d9c395de844cb3 1-142
+composer.json
+  s_fca61c04dceb47::t_4d44dd0b6c05a8 1-56
+config/graphiti.php
+  s_fca61c04dceb47::t_59e43423fd26a7 1-45
+phpunit.xml
+  s_fca61c04dceb47::t_327072eab7a179 1-16
+src/Data/Episode.php
+  s_fca61c04dceb47::t_c371a26632511c 1-40
+src/Data/Fact.php
+  s_fca61c04dceb47::t_3d7f1116fe01f8 1-43
+src/Data/Message.php
+  s_fca61c04dceb47::t_8b15dc6405f6c5 1-39
+src/Facades/Graphiti.php
+  s_fca61c04dceb47::t_b6e9b84b9c4dfa 1-29
+src/GraphitiClient.php
+  s_fca61c04dceb47::t_c0090fef82f766 1-213
+tests/EntityAndMemoryTest.php
+  s_fca61c04dceb47::t_684779629fcc9e 1-74
+tests/GraphitiClientTest.php
+  s_fca61c04dceb47::t_e23a4bbd20ecd2 1-224
+tests/MessageTest.php
+  s_fca61c04dceb47::t_47de98f2e68b48 1-33
+tests/Pest.php
+  s_fca61c04dceb47::t_f4c3a6889ef6f5 1-5
+tests/TestCase.php
+  s_fca61c04dceb47::t_d59633f5bd6615 1-20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "72f8ae1965864418d400f22c5907f93656684ed7",
+  "prompts": {},
+  "sessions": {
+    "s_fca61c04dceb47": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "917b2e88-0fde-47fd-8d43-8f7c4af70a18",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Bogdan Kharchenko <scriptor@gmail.com>"
+    }
+  }
+}
